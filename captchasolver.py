@@ -8,6 +8,8 @@ import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
 from ocrsolver import solve_captcha
+from crnn import CRNN
+from ocr import OCR
 
 # Carica il modello salvato
 

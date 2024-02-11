@@ -38,5 +38,3 @@ def solve_captcha(model_path, img_path):
     return pred_text
 
 
-CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWYXZ'
-VOCAB_SIZE = len(CHARS) + 1

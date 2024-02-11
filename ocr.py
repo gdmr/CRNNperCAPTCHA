@@ -133,3 +133,7 @@ class OCR:
                 )) 
 
         return train_losses, valid_losses
+
+
+CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWYXZ'
+VOCAB_SIZE = len(CHARS) + 1
